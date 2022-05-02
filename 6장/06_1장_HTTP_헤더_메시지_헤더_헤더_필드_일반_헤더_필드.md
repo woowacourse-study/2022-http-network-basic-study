@@ -1,7 +1,8 @@
 # HTTP 메시지 헤더란?
 HTTP 프로토콜에서 리퀘스트와 리스폰스에는 반드시 메시지 헤더가 포함되어 있다. 메시지 헤더에는 클라이언트나 서버가 리퀘스트나 리스폰스를 처리하기 위한 정보가 들어 있다.
 
-![img.png](img.png)
+![image](https://user-images.githubusercontent.com/46641538/166202450-3c43d8c6-fe75-4b6f-a560-cfabb5358a7c.png)
+
 
 # HTTP 헤더 필드
 HTTP 헤더 필드는 중요한 정보를 전달한다. 메시지 바디의 크기나 사용하고 있는 언어, 인증 정보 등을 브라우저나 서버에 제공하기 위해 사용되고 있다.
@@ -82,11 +83,11 @@ HTTP 헤더 필드는 크게 두 가지 카테고리가 있다.
 
 
 ### 클라이언트 리퀘스트
-![img_1.png](img_1.png)
+![image](https://user-images.githubusercontent.com/46641538/166202506-4bea1c4c-9607-481a-8c36-178b7e7771e8.png)
 
 HTTP/1.1 이전에는 지속적 접근이 디폴트가 아니였기 때문에 오래된 버전의 HTTP에서 지속적 접근을 하고 싶으면 Connection 헤더 필드에 Keep-alive를 지정해줘야 한다.
 
-![img_2.png](img_2.png)
+![image](https://user-images.githubusercontent.com/46641538/166202520-ce4de462-2fba-4a92-bd7c-1b24dd23b8ea.png)
 
 ## Pragma
 Pragma는 HTTP/1.0과 호환성을 위해 있는 헤더 필드다. 일반 헤더 필드지만 리퀘스트에서만 사용된다. 캐시된 리스폰스를 원하지 않음을 모든 중간 서버에 알려준다.
